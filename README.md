@@ -1,6 +1,7 @@
 # ACNN: a Full Resolution DCNN for Medical Image Segmentation
 This repository provides the python code for the ICRA 2020 paper:
-* Xiao-Yun Zhou, Jian-Qing Zheng, Peichao Li, Guang-Zhong Yang. **ACNN: a Full Resolution DCNN for Medical Image Segmentation**. ICRA 2020. 
+* Xiao-Yun Zhou, Jian-Qing Zheng, Peichao Li, Guang-Zhong Yang. **ACNN: a Full Resolution DCNN for Medical Image Segmentation**. International Conference on Robotics and Automation 2020. 
+
 This paper proposed a method for effective atrous rate setting to achieve the largest and fully-covered receptive field with a minimum number of atrous convolutional layers. Furthermore, a new and full resolution DCNN - Atrous Convolutional Neural Network (ACNN), which incorporates cascaded atrous II-blocks, residual learning and Instance Normalization (IN) is proposed.
 
 ## Requirements
