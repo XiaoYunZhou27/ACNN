@@ -70,7 +70,7 @@ for lr in [0.1, 0.05, 0.01, 0.005]:
 
     boundaries = [2000, 4000]
     values = [lr, lr / 5, lr / 25]
-    # TODO specify save path
+    # TODO specify model save path
     save_path = '/data/trained/%s/%s_%d_blocks_l2regularization/model_lr_%f_crossval_%s/' % (
         dataset, network, n_blocks, lr, cross_validation)
     if not restore:

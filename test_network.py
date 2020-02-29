@@ -22,11 +22,12 @@ l2regularization = True
 write_prediction_result = True  # whether prediction map should be saved
 
 # TODO specify paths for testing data
-data_folder = '/data2/XIAOYUN_ZHOU/Dataset/%s_2fold/' % dataset
+data_folder = '/data/XIAOYUN_ZHOU/Dataset/%s_2fold/' % dataset
 data_test_path = data_folder + 'Test_%d/' % cross_validation
 data_train_path = data_folder + 'Train_%d/' % cross_validation
 data_eval_path = data_folder + 'Evaluation_%d/' % cross_validation
-save_path = '/media/xz6214/4276F10376F0F90D/trained/%s/%s_%d_blocks%s/model_lr_%f_crossval_%s/' % (
+# TODO specify model save path
+save_path = '/data/trained/%s/%s_%d_blocks%s/model_lr_%f_crossval_%s/' % (
     dataset, network, n_blocks, '_l2regularization' if l2regularization else '', lr, cross_validation)
 
 test_image_list = sorted([name for name in os.listdir(data_test_path) if re.match('Test_Image_\\d+.mat', name)],
