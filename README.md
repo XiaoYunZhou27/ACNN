@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-1901.09203-b31b1b.svg)](https://arxiv.org/abs/1901.09203)
 
 This repository provides the python code for the [ICRA 2020 paper](https://doi.org/10.1109/ICRA40945.2020.9197328):
-* Xiao-Yun Zhou, Jian-Qing Zheng, Peichao Li, Guang-Zhong Yang. **ACNN: a Full Resolution DCNN for Medical Image Segmentation**. International Conference on Robotics and Automation 2020. 
+* [Xiao-Yun Zhou](https://xiaoyunzhou27.github.io/xiaoyunzhou/), [Jian-Qing Zheng](https://jianqingzheng.github.io/), [Peichao Li](https://scholar.google.com/citations?user=HXx7wJ8AAAAJ), [Guang-Zhong Yang](https://imr.sjtu.edu.cn/en/ab_lead/210.html). **ACNN: a Full Resolution DCNN for Medical Image Segmentation**. International Conference on Robotics and Automation 2020. 
 
 This paper proposed a method for effective atrous rate setting to achieve the largest and fully-covered receptive field with a minimum number of atrous convolutional layers. Furthermore, a new and full resolution DCNN - Atrous Convolutional Neural Network (ACNN), which incorporates cascaded atrous II-blocks, residual learning and Instance Normalization (IN) is proposed.
 
